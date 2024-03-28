@@ -32,16 +32,6 @@ const App = () => {
                 </PrivatePage>
               }
             />
-            {/* <Route
-                  path="/accessDenied"
-                  element={
-                    <PrivatePage>
-                      <Template>
-                        <div>Access Denied</div>
-                      </Template>
-                    </PrivatePage>
-                  }
-                /> */}
           </Routes>
           <ToastContainer />
         </BrowserRouter>
